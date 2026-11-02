@@ -1203,7 +1203,7 @@ public class SharedBlobCacheWarmingService {
 
         private void logTimeoutExtension(SearchRecoveryTimeout previousPlan, final SearchRecoveryTimeout plan, final TimeValue elapsed) {
             logger.debug(
-                "FIXMESearch shard recovery cache warming timeout extended by [{}] ({} -> {}) for [{}]. Total timeout: [{}]",
+                "Search shard recovery cache warming timeout extended by [{}] ({} -> {}) for [{}]. Total timeout: [{}]",
                 plan.timeout(),
                 previousPlan.timeoutContext().description(),
                 plan.timeoutContext().description(),
